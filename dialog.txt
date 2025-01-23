@@ -1,0 +1,25 @@
+-- Items
+Armour Upgrade For Sale
+Weapon Upgrade For Sale
+Potions For Sale
+Extraction for Sale
+-- Shopkeeper Dialog
+Good day, noble traveler! Behold my fine array of steel and leather armour, forged to protect the bravest of hearts and crafted to shield the most valiant of warriors.
+Look here! The sharpest swords and sturdiest shields in the realm, all at your service. Choose wisely, for they shall be your companions in battles to come.
+Step right in, my friend! Whether you seek the swift blade of a rapier or the mighty swing of a war hammer, I've got the weapon to match your fighting spirit
+In need of extraction, are you? I've potions and salves to heal your wounds and elixirs to soothe your weary bones. Only the purest ingredients, I assure you.
+Protect thy neck with my finely wrought chainmail, and let no blade find purchase! For a price fairer than a unicorn's smile, you shall leave here as the envy of the battlefield.
+-- Skeleton Encounter
+The agile skeleton, a creature of bone that prioritized swiftness over brute strength and precision over heavy blows, lunged towards the player, its ancient joints clacking ominously in the stillness of the crypt.
+The agile skeleton charges towards you, its brittle bones clacking ominously as it favors swiftness over brute force.
+The Skeleton lunges at you with a surprising agility, its brittle bones clattering as it favors swiftness over brute strength.
+The Skeleton lunges with alarming swiftness, its bony frame compensating for a lack of brute force with a flurry of agile strikes.
+-- Gnome Encounter
+a crafty gnome with a mischievous twinkle in its eye, likely wielding a tiny but surprisingly potent arsenal of enchanted tools, ready to unleash its clever tactics and wily nature upon the unsuspecting adventurer
+With a mischievous glint in its eye and a pocket full of peculiar contraptions, the gnome advances, ready to test your mettle with its clever inventions and wily tactics.
+The gnome enemy, with a surprisingly technical approach, tinkers with gadgets and contraptions as it prepares to unleash an ingenious mechanical barrage upon you.
+-- Goblin Encounter
+The hulking goblin lumbers into view, its bulging muscles and oversized weapon revealing a brutish preference for power over finesse or agility.
+The hulking goblin, favoring brute power over finesse, lurches towards you with a thunderous roar, wielding a massive, jagged club that seems almost too heavy for its muscular arms to lift.
+The bulky, slow-moving goblin lumbers into view, its disproportionately large weapon reflecting an unmistakable preference for brute power over finesse or speed.
+The hulking goblin lumbers into view, its bulging muscles straining against its armour, clearly favouring brute power over finesse or swiftness in combat.
