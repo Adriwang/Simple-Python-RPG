@@ -1,7 +1,6 @@
 import random
 import linecache
 import os
-import math
 
 floor: int = 0
 gold:int = 100
