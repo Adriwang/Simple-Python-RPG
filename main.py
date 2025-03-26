@@ -4,19 +4,22 @@ import os
 
 class GameState:
     def __init__(self):
-        self.floor = 0
-        self.gold = 100
-        self.health = 100
-        self.defense = 0
-        self.attack = 5
-        self.potion_cost = 10
-        self.base_cost = 100
-        self.inflation = 0
-        self.receive_dialog = False
+        self.floor: int = 0
+        self.gold: int = 100
+        self.health: int = 100
+        self.defense: int = 0
+        self.attack: int = 5
+        self.potion_cost: int = 10
+        self.base_cost: int = 100
+        self.inflation: int = 0
+        self.receive_dialog: bool = False
 
 game_state = GameState()
 
+""" Speed beats Power, Power beats Technical, Technical beats Speed """
 attack_types = ["Power", "Speed", "Technical"]
+
+""" Gnomes Prioritize Technical, Goblins Prioritize Power, Skeletons Prioritize Speed """
 enemy_types = ["Gnome", "Goblin", "Skeleton"]
 
 def player_continue():
@@ -92,12 +95,14 @@ def enemy_attack(enemy_type, enemy_health):
     print(f"Gold Earned = {reward}")
     return reward
 
+# Game Initialization
 start_setting = input("Do you want to play with dialog on? (y, n = default): ")
 game_state.receive_dialog = start_setting.lower() == 'y'
 shop_event = random.randint(2, 3)
 shopkeeper(linecache.getline('dialog.txt', shop_event))
 print("Entering into the dungeon")
 
+# Active Game Loop
 while True:
     game_state.floor += 1
     player_continue()
