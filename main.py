@@ -61,6 +61,7 @@ def enemy_roll():
     return random.randint(1, 5) == 1
 
 def enemy_attack(enemy_type, enemy_health):
+    enemy_type_origin = enemy_type
     print("You encountered a", enemy_type)
     print("You have 3 attack types")
     while True:
@@ -83,7 +84,7 @@ def enemy_attack(enemy_type, enemy_health):
         if enemy_roll():
             enemy_type = random.choice(enemy_types)
         if enemy_health <= 0:
-            print("You took down the", enemy_type)
+            print("You took down the", enemy_type_origin)
             player_continue()
             break
         if game_state.health <= 0:
