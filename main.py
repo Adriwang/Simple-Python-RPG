@@ -30,7 +30,7 @@ def handle_purchase(cost, success_message, attribute, increment):
     if game_state.gold < cost:
         print(f"You are {cost - game_state.gold} gold short")
     else:
-        user_input = input("Purchase? (y/n = default)")
+        user_input = input("Purchase? (y/n = default): ")
         if user_input.lower() == 'y':
             setattr(game_state, attribute, getattr(game_state, attribute) + increment)
             game_state.gold -= cost
